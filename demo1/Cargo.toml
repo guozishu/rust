@@ -1,0 +1,11 @@
+[package]
+name = "hello-rust"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+# --------------- 为 Rust 的清单文件。其中包含了项目的元数据和依赖库。 ---------------
+# 在 Rust 中，我们通常把包称作“crates”
+
+[dependencies]
+ferris-says = "0.2"
