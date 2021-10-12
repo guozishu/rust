@@ -5,7 +5,7 @@
 构建工具和包管理器 即 Cargo
 cargo build 可以构建项目,(安装依赖)
   运行此命令会创建一个新文件 Cargo.lock，该文件记录了本地所用依赖库的精确版本。
-cargo run 可以运行项目
+cargo run 可以(构建)运行项目
 cargo test 可以测试项目
 cargo doc 可以为项目构建文档
 cargo publish 可以将库发布到 crates.io。
